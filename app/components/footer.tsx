@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="space-y-3">
           <div className="flex items-center">
             <Zap className="h-6 w-6 text-lime-300" />
-            <span className="ml-2 text-lg font-bold text-white">Groowth</span>
+            <span className="ml-2 text-lg font-bold text-white">NewEraConsulting</span>
           </div>
           <p className="text-sm text-gray-400">The digital marketing agency that transforms your business.</p>
           <div className="pt-2 space-y-1">
@@ -77,7 +77,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm text-gray-400">
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-lime-300" />
-              team@groowth.ai
+              andrea@newerainternationalconsulting.com
             </li>
             <li className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-lime-300" />

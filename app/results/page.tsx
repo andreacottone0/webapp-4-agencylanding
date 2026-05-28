@@ -13,7 +13,7 @@ export default function ResultsPage() {
       <header className="px-4 lg:px-6 h-16 flex items-center border-b border-gray-800 bg-black/95 backdrop-blur supports-[backdrop-filter]:bg-black/60 sticky top-0 z-50">
         <Link href="/" className="flex items-center justify-center">
           <TrendingUp className="h-8 w-8 text-lime-300" />
-          <span className="ml-2 text-xl font-bold text-white">Groowth</span>
+          <span className="ml-2 text-xl font-bold text-white">NewEraConsulting</span>
         </Link>
         <nav className="ml-auto hidden md:flex gap-6">
           <Link href="/#services" className="text-sm font-medium hover:text-lime-300 transition-colors text-gray-300">
@@ -542,17 +542,17 @@ export default function ResultsPage() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="flex items-center">
               <TrendingUp className="h-6 w-6 text-lime-300" />
-              <span className="ml-2 text-lg font-bold text-white">Groowth</span>
+              <span className="ml-2 text-lg font-bold text-white">NewEraConsulting</span>
             </div>
             <div className="mt-2 md:mt-0 text-right">
-              <p className="text-xs text-gray-500">Groowth Marketing Solutions, Inc.</p>
+              <p className="text-xs text-gray-500">NewEraConsulting Marketing Solutions, Inc.</p>
               <p className="text-xs text-gray-500">123 Marketing Street, Suite 500, New York, NY 10001</p>
               <p className="text-xs text-gray-500">Business License: #MKT-12345-NY</p>
             </div>
           </div>
           <div className="border-t border-gray-800 pt-4">
             <p className="text-xs text-gray-500 text-center">
-              © 2024 Groowth Marketing Solutions, Inc. All rights reserved.
+              © 2024 NewEraConsulting Marketing Solutions, Inc. All rights reserved.
             </p>
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function TermsOfServicePage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-2">6. Contact</h2>
               <p>
-              For any questions or concerns regarding these Terms, you may contact us at: <span className="text-lime-300">team@groowth.ai</span>. </p>
+              For any questions or concerns regarding these Terms, you may contact us at: <span className="text-lime-300">andrea@newerainternationalconsulting.com</span>. </p>
               <p> Business Address:  </p>
               <p>  New Era International FZCO  </p>
 

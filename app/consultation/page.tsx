@@ -12,7 +12,7 @@ import Footer from "../components/footer"
 export default function ConsultationPage() {
   useEffect(() => {
     const script = document.createElement("script")
-    script.src = "https://assets.calendly.com/assets/external/widget.js"
+    script.src = "https://link.msgsndr.com/js/form_embed.js"
     script.async = true
     document.body.appendChild(script)
   }, [])
@@ -78,11 +78,12 @@ export default function ConsultationPage() {
               </CardDescription>
             </CardHeader>
             <CardContent className="p-8">
-              <div
-                className="calendly-inline-widget"
-                data-url="https://calendly.com/team-groowth/30min"
-                style={{ minWidth: "320px", height: "630px" }}
-              ></div>
+              <iframe
+                src="https://api.leadconnectorhq.com/widget/booking/OzPcbo6IEftp945zpfUe"
+                style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "630px" }}
+                scrolling="no"
+                id="OzPcbo6IEftp945zpfUe"
+              ></iframe>
             </CardContent>
           </Card>
 

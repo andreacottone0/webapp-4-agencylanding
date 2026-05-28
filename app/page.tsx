@@ -28,7 +28,7 @@ export default function MarketingAgencyLanding() {
       <header className="px-4 lg:px-6 h-16 flex items-center border-b border-gray-800 bg-black/95 backdrop-blur supports-[backdrop-filter]:bg-black/60 sticky top-0 z-50">
         <Link href="/" className="flex items-center justify-center">
           <Zap className="h-8 w-8 text-lime-300" />
-          <span className="ml-2 text-xl font-bold text-white">Groowth</span>
+          <span className="ml-2 text-xl font-bold text-white">NewEraConsulting</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -447,7 +447,7 @@ export default function MarketingAgencyLanding() {
                     ))}
                   </div>
                   <p className="text-sm text-gray-300 mb-4">
-                    "Thanks to Groowth, we tripled our online sales in just 6 months. Their data-driven approach is
+                    "Thanks to NewEraConsulting, we tripled our online sales in just 6 months. Their data-driven approach is
                     incredible."
                   </p>
                   <div className="flex items-center space-x-3">
@@ -474,7 +474,7 @@ export default function MarketingAgencyLanding() {
                     ))}
                   </div>
                   <p className="text-sm text-gray-300 mb-4">
-                    "The Groowth team is fantastic. They completely revamped our digital presence and the results speak
+                    "The NewEraConsulting team is fantastic. They completely revamped our digital presence and the results speak
                     for themselves."
                   </p>
                   <div className="flex items-center space-x-3">
@@ -565,7 +565,7 @@ export default function MarketingAgencyLanding() {
           <div className="space-y-3">
             <div className="flex items-center">
               <Zap className="h-6 w-6 text-lime-300" />
-              <span className="ml-2 text-lg font-bold text-white">Groowth</span>
+              <span className="ml-2 text-lg font-bold text-white">NewEraConsulting</span>
             </div>
             <p className="text-sm text-gray-400">The digital marketing agency that transforms your business.</p>
             <div className="pt-2 space-y-1">
@@ -633,7 +633,7 @@ export default function MarketingAgencyLanding() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-lime-300" />
-                team@groowth.ai
+                andrea@newerainternationalconsulting.com
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-lime-300" />

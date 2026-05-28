@@ -59,7 +59,7 @@ export default function ContactPage() {
 
   useEffect(() => {
     const script = document.createElement("script")
-    script.src = "https://assets.calendly.com/assets/external/widget.js"
+    script.src = "https://link.msgsndr.com/js/form_embed.js"
     script.async = true
     document.body.appendChild(script)
   }, [])
@@ -359,12 +359,12 @@ export default function ContactPage() {
                       <CardDescription className="text-gray-400">Choose a time that works best for you</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      {/* Calendly Integration Placeholder */}
-                      <div
-                        className="calendly-inline-widget"
-                        data-url="https://calendly.com/team-groowth/30min"
-                        style={{ minWidth: "320px", height: "630px" }}
-                      ></div>
+                      <iframe
+                        src="https://api.leadconnectorhq.com/widget/booking/OzPcbo6IEftp945zpfUe"
+                        style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "630px" }}
+                        scrolling="no"
+                        id="OzPcbo6IEftp945zpfUe"
+                      ></iframe>
                     </CardContent>
                   </Card>
                 </div>
@@ -390,7 +390,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-white font-medium">Email</p>
-                        <p className="text-gray-400">team@groowth.ai</p>
+                        <p className="text-gray-400">andrea@newerainternationalconsulting.com</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-3">
@@ -426,7 +426,7 @@ export default function ContactPage() {
                 {/* Why Choose Us */}
                 <Card className="bg-gradient-to-r from-lime-300/10 to-lime-400/10 border-lime-300/20">
                   <CardHeader>
-                    <CardTitle className="text-white">Why Choose Groowth?</CardTitle>
+                    <CardTitle className="text-white">Why Choose NewEraConsulting?</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-3">
@@ -499,7 +499,7 @@ export default function ContactPage() {
               </Card>
               <Card className="bg-gray-900 border-gray-800">
                 <CardHeader>
-                  <CardTitle className="text-white text-lg">What makes Groowth different?</CardTitle>
+                  <CardTitle className="text-white text-lg">What makes NewEraConsulting different?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-300">

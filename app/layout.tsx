@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Groowth AI',
+  title: 'NewEraConsulting',
   description: 'Created with v0',
   generator: 'v0.dev',
 }

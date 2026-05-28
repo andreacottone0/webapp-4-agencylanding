@@ -7,7 +7,7 @@ export default function Header() {
     <header className="px-4 lg:px-6 h-16 flex items-center border-b border-gray-800 bg-black/95 backdrop-blur supports-[backdrop-filter]:bg-black/60 sticky top-0 z-50">
         <Link href="/" className="flex items-center justify-center">
           <Zap className="h-8 w-8 text-lime-300" />
-          <span className="ml-2 text-xl font-bold text-white">Groowth</span>
+          <span className="ml-2 text-xl font-bold text-white">NewEraConsulting</span>
         </Link>
 
         {/* Desktop Navigation */}

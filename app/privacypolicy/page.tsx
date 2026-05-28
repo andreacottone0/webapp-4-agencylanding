@@ -73,7 +73,7 @@ export default function PrivacyPolicyPage() {
                             <h2 className="text-lg font-semibold text-white mb-2">7. Contact Us</h2>
                             <p>
                                 For any privacy-related questions, you can contact us at{' '}
-                                <span className="text-lime-300">team@groowth.ai</span>.
+                                <span className="text-lime-300">andrea@newerainternationalconsulting.com</span>.
                             </p>
                             <p className="mt-4 text-gray-400 text-sm">
                                 New Era International FZCO<br />
